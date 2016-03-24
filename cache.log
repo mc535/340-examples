@@ -1,0 +1,107 @@
+2016/03/21 17:33:45 kid1| Creating missing swap directories
+2016/03/21 17:33:45 kid1| No cache_dir stores are configured.
+2016/03/22 01:16:47 kid1| Creating missing swap directories
+2016/03/22 01:16:47 kid1| /var/spool/squid3 exists
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/00
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/01
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/02
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/03
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/04
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/05
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/06
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/07
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/08
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/09
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/0A
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/0B
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/0C
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/0D
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/0E
+2016/03/22 01:16:47 kid1| Making directories in /var/spool/squid3/0F
+2016/03/22 03:15:27| Starting Squid Cache version 3.3.8 for x86_64-pc-linux-gnu...
+2016/03/22 03:15:27| Process ID 23282
+2016/03/22 03:15:27| Process Roles: master worker
+2016/03/22 03:15:27| With 65536 file descriptors available
+2016/03/22 03:15:27| Initializing IP Cache...
+2016/03/22 03:15:27| DNS Socket created at [::], FD 5
+2016/03/22 03:15:27| DNS Socket created at 0.0.0.0, FD 6
+2016/03/22 03:15:27| Adding nameserver 127.0.1.1 from /etc/resolv.conf
+2016/03/22 03:15:27| Adding domain resource.campus.njit.edu from /etc/resolv.conf
+2016/03/22 03:15:27| Logfile: opening log /var/log/squid3
+2016/03/22 03:15:27| WARNING: log parameters now start with a module name. Use 'stdio:/var/log/squid3'
+FATAL: Cannot open '/var/log/squid3' because it is a directory, not a file.
+
+Squid Cache (Version 3.3.8): Terminated abnormally.
+CPU Usage: 0.008 seconds = 0.004 user + 0.004 sys
+Maximum Resident Size: 74512 KB
+Page faults with physical i/o: 1
+2016/03/22 03:19:07| Starting Squid Cache version 3.3.8 for x86_64-pc-linux-gnu...
+2016/03/22 03:19:07| Process ID 23314
+2016/03/22 03:19:07| Process Roles: master worker
+2016/03/22 03:19:07| With 65536 file descriptors available
+2016/03/22 03:19:07| Initializing IP Cache...
+2016/03/22 03:19:07| DNS Socket created at [::], FD 5
+2016/03/22 03:19:07| DNS Socket created at 0.0.0.0, FD 6
+2016/03/22 03:19:07| Adding nameserver 127.0.1.1 from /etc/resolv.conf
+2016/03/22 03:19:07| Adding domain resource.campus.njit.edu from /etc/resolv.conf
+2016/03/22 03:19:07| Logfile: opening log daemon:/var/log/squid3/access.log
+2016/03/22 03:19:07| Logfile Daemon: opening log /var/log/squid3/access.log
+2016/03/22 03:19:08| Unlinkd pipe opened on FD 12
+2016/03/22 03:19:08| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2016/03/22 03:19:08| Store logging disabled
+2016/03/22 03:19:08| Swap maxSize 102400 + 262144 KB, estimated 28041 objects
+2016/03/22 03:19:08| Target number of buckets: 1402
+2016/03/22 03:19:08| Using 8192 Store buckets
+2016/03/22 03:19:08| Max Mem  size: 262144 KB
+2016/03/22 03:19:08| Max Swap size: 102400 KB
+2016/03/22 03:19:08| Rebuilding storage in /var/spool/squid3 (no log)
+2016/03/22 03:19:08| Using Least Load store dir selection
+2016/03/22 03:19:08| Set Current Directory to /var/spool/squid3
+2016/03/22 03:19:08| Loaded Icons.
+2016/03/22 03:19:08| HTCP Disabled.
+2016/03/22 03:19:08| Pinger socket opened on FD 16
+2016/03/22 03:19:08| Squid plugin modules loaded: 0
+2016/03/22 03:19:08| Adaptation support is off.
+2016/03/22 03:19:08| Accepting HTTP Socket connections at local=[::]:8080 remote=[::] FD 14 flags=9
+2016/03/22 03:19:08| pinger: Initialising ICMP pinger ...
+2016/03/22 03:19:08| pinger: ICMP socket opened.
+2016/03/22 03:19:08| pinger: ICMPv6 socket opened
+2016/03/22 03:19:08| Done scanning /var/spool/squid3 dir (0 entries)
+2016/03/22 03:19:08| Finished rebuilding storage from disk.
+2016/03/22 03:19:08|         0 Entries scanned
+2016/03/22 03:19:08|         0 Invalid entries.
+2016/03/22 03:19:08|         0 With invalid flags.
+2016/03/22 03:19:08|         0 Objects loaded.
+2016/03/22 03:19:08|         0 Objects expired.
+2016/03/22 03:19:08|         0 Objects cancelled.
+2016/03/22 03:19:08|         0 Duplicate URLs purged.
+2016/03/22 03:19:08|         0 Swapfile clashes avoided.
+2016/03/22 03:19:08|   Took 0.09 seconds (  0.00 objects/sec).
+2016/03/22 03:19:08| Beginning Validation Procedure
+2016/03/22 03:19:08|   Completed Validation Procedure
+2016/03/22 03:19:08|   Validated 0 Entries
+2016/03/22 03:19:08|   store_swap_size = 0.00 KB
+2016/03/22 03:19:09| storeLateRelease: released 0 objects
+2016/03/22 03:26:41| Squid is already running!  Process ID 23314
+2016/03/22 03:27:08| Squid is already running!  Process ID 23314
+2016/03/22 03:27:39| Squid is already running!  Process ID 23314
+2016/03/22 15:32:31| Logfile: opening log stdio:/var/log/squid3/netdb.state
+2016/03/22 15:32:31| Logfile: closing log stdio:/var/log/squid3/netdb.state
+2016/03/22 15:32:31| NETDB state saved; 7 entries, 0 msec
+2016/03/22 16:14:11| Logfile: opening log stdio:/var/log/squid3/netdb.state
+2016/03/22 16:14:11| Logfile: closing log stdio:/var/log/squid3/netdb.state
+2016/03/22 16:14:11| NETDB state saved; 10 entries, 1 msec
+2016/03/22 17:08:46| Logfile: opening log stdio:/var/log/squid3/netdb.state
+2016/03/22 17:08:46| Logfile: closing log stdio:/var/log/squid3/netdb.state
+2016/03/22 17:08:46| NETDB state saved; 16 entries, 0 msec
+2016/03/22 18:19:14| Logfile: opening log stdio:/var/log/squid3/netdb.state
+2016/03/22 18:19:14| Logfile: closing log stdio:/var/log/squid3/netdb.state
+2016/03/22 18:19:14| NETDB state saved; 20 entries, 7 msec
+2016/03/22 18:37:00| Squid is already running!  Process ID 23314
+2016/03/22 18:38:44| Squid is already running!  Process ID 23314
+2016/03/22 19:20:18| Logfile: opening log stdio:/var/log/squid3/netdb.state
+2016/03/22 19:20:18| Logfile: closing log stdio:/var/log/squid3/netdb.state
+2016/03/22 19:20:18| NETDB state saved; 28 entries, 0 msec
+2016/03/23 20:49:53| Logfile: opening log stdio:/var/log/squid3/netdb.state
+2016/03/23 20:49:53| Logfile: closing log stdio:/var/log/squid3/netdb.state
+2016/03/23 20:49:53| NETDB state saved; 30 entries, 2 msec
