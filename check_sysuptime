@@ -1,0 +1,14 @@
+on 1.02
+# By Paul Basehore
+
+
+struptime=`uptime | awk '{print $2,$3,$4,$5}'`
+struptime1=${struptime%,}
+strdayshours=${struptime1%%:*}' Hours, '
+strminutes=${struptime1##*:}
+strminutes1=${strminutes%%,*}' Minutes'
+
+
+echo "System Uptime -" $strdayshours$strminutes1
+
+exit 0
